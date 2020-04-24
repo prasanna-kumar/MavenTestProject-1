@@ -1,12 +1,14 @@
 package com.calculator;
-
+import java.util.*;
 public class Calculator {
 
 	public static void main(String[] args){
-		System.out.println("6 + 3 = " + add(6, 3));
-		System.out.println("6 - 3 = " + subtract(6,3));
-		System.out.println("6 * 3 = " + multiply(6,3));
-		System.out.println("6 / 3 = " + divide(6,3));
+		Scanner sc=new Scanner(System.in);
+		int a=10,b=20;
+		System.out.println("a + b = " + add(a, b));
+		System.out.println("a - b = " + subtract(a,b));
+		System.out.println("a * b = " + multiply(a,b));
+		System.out.println("a / b = " + divide(a,b));
 	}
 
 	public static int add(int a, int b) {
